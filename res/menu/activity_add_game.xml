@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+    <item
+        android:id="@+id/menuSave"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/save"
+        android:title="@string/menuSave">
+    </item>
+    
+    <item
+        android:id="@+id/menuCancel"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/cancel"
+        android:title="@string/menuCancel">
+    </item>
+    
+</menu>

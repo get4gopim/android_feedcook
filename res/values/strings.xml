@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">FeedCook</string>
+    <string name="title_activity_main">FeedCook</string>
+    
+    <string name="menuAdd">Add Feed</string>
+    <string name="menuDelete">Delete Feed(s)</string>
+    <string name="menuEdit">Edit Feed</string>
+    <string name="menuExit">Exit</string>
+    
+    <string name="menuCancel">Cancel</string>
+    <string name="menuSave">Save</string>
+    <string name="menuBack">Back</string>
+    
+    <string name="title_activity_add_feed">Add Feeds</string>
+    <string name="title_activity_web">Feeds</string>
+    
+    <string name="lblFeedUrl">Feed URL</string>
+    <string name="lblDefault">default</string>
+    <string name="lblFeedName">Feed Name</string>
+    <string name="lblFeedSource">Feed Source</string>
+
+</resources>

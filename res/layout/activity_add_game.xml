@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alignmentMode="alignBounds"
+    android:columnCount="2"
+    android:columnOrderPreserved="false"
+    android:useDefaultMargins="true" >
+
+    <TextView
+        android:layout_gravity="clip_horizontal"
+        android:paddingLeft="5dp"
+        style="@style/PinkText"
+        android:text="@string/lblFeedSource"
+        android:textSize="16dip"
+        android:width="100dp" />
+
+    <EditText
+        android:id="@+id/txtFeedSource"
+        android:layout_gravity="clip_horizontal"
+        android:hint="@string/lblDefault"
+        android:inputType="text"
+        android:textSize="16dp"
+        android:width="300dp" />
+    
+    <TextView
+        android:layout_gravity="clip_horizontal"
+        android:paddingLeft="5dp"
+        style="@style/PinkText"
+        android:text="@string/lblFeedName"
+        android:textSize="16dip"
+        android:width="100dp" />
+
+    <EditText
+        android:id="@+id/txtTitle"
+        android:layout_gravity="clip_horizontal"
+        android:hint="@string/lblDefault"
+        android:inputType="text"
+        android:textSize="16dp"
+        android:width="300dp" />
+
+    <TextView
+        android:layout_gravity="clip_horizontal"
+        android:paddingLeft="5dp"
+        style="@style/PinkText"
+        android:text="@string/lblFeedUrl"
+        android:textSize="16dip" />
+
+    <EditText
+        android:id="@+id/txtUrl"
+        android:layout_width="fill_parent"
+        android:hint="@string/lblDefault"
+        android:inputType="text"
+        android:textSize="16dp"
+        android:width="300dp" />
+
+</GridLayout>
