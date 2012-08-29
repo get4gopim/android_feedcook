@@ -12,11 +12,17 @@
         android:showAsAction="ifRoom|withText"
         android:title="@string/menuDelete">
     </item>
-     <item
+    <item
         android:id="@+id/menuEdit"
         android:icon="@drawable/edit"
         android:showAsAction="ifRoom|withText"
         android:title="@string/menuEdit">
+    </item>
+    <item
+        android:id="@+id/menuNotification"
+        android:icon="@drawable/edit"
+        android:showAsAction="never"
+        android:title="@string/menuNotification">
     </item>
     <item
         android:id="@+id/menuExit"
